@@ -1,9 +1,9 @@
 # 🎓 Git Lesson Progress — Nicholas
 
 ## 📍 Current Position
-- **Stage:** 7 (next to start)
-- **Total XP:** 850 XP
-- **Level:** 6 — Undo Master 🔄
+- **Stage:** 8 (next to start)
+- **Total XP:** 1150 XP
+- **Level:** 7 — Branch Wizard 🌿
 
 ## ✅ Completed Stages
 
@@ -45,8 +45,15 @@
 - Knows Git almost never deletes things permanently
 - XP earned: 250
 
-## ⏭️ Up Next — Stage 7: Branches
-- Learn to create parallel universes for your code
+### 🟠 Stage 7 — Branches ✅
+- Used `git branch` to see all branches
+- Used `git branch my-first-branch` to create a new branch
+- Used `git switch my-first-branch` to jump into it
+- Made a change and committed it on the new branch
+- XP earned: 300
+
+## ⏭️ Up Next — Stage 8: Merging
+- Bring my-first-branch back into master
 - XP available: 300
 
 ## 📖 Key Things Nicholas Knows
@@ -67,9 +74,9 @@
 | 4 | Staging & Committing | 200 | ✅ |
 | 5 | Reading History | 100 | ✅ |
 | 6 | Undoing Things | 250 | ✅ |
-| 7 | Branches | 300 | ⏭️ next |
-| 8 | Merging | 300 | ⬜ |
+| 7 | Branches | 300 | ✅ |
+| 8 | Merging | 300 | ⏭️ next |
 | 9 | GitHub | 400 | ⬜ |
 | 10 | Pull Requests | 500 | ⬜ |
 | 11 | Bonus Commands | 200 | ⬜ |
-| **Total** | | **2550** | **850 earned** |
+| **Total** | | **2550** | **1150 earned** |
