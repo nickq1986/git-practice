@@ -1,9 +1,9 @@
 # 🎓 Git Lesson Progress — Nicholas
 
 ## 📍 Current Position
-- **Stage:** 8 (next to start)
-- **Total XP:** 1150 XP
-- **Level:** 7 — Branch Wizard 🌿
+- **Stage:** 9 (next to start)
+- **Total XP:** 1450 XP
+- **Level:** 8 — Merge Champion 🏆
 
 ## ✅ Completed Stages
 
@@ -52,9 +52,15 @@
 - Made a change and committed it on the new branch
 - XP earned: 300
 
-## ⏭️ Up Next — Stage 8: Merging
-- Bring my-first-branch back into master
-- XP available: 300
+### 🟠 Stage 8 — Merging ✅
+- Switched back to `master` with `git switch master`
+- Merged `my-first-branch` into `master` with `git merge`
+- Understands "Fast-forward" = Git sliding master forward cleanly
+- XP earned: 300
+
+## ⏭️ Up Next — Stage 9: GitHub (Cloud Saves)
+- Push your repo to the internet
+- XP available: 400
 
 ## 📖 Key Things Nicholas Knows
 - A **repo** = a folder Git watches
@@ -75,8 +81,8 @@
 | 5 | Reading History | 100 | ✅ |
 | 6 | Undoing Things | 250 | ✅ |
 | 7 | Branches | 300 | ✅ |
-| 8 | Merging | 300 | ⏭️ next |
-| 9 | GitHub | 400 | ⬜ |
+| 8 | Merging | 300 | ✅ |
+| 9 | GitHub | 400 | ⏭️ next |
 | 10 | Pull Requests | 500 | ⬜ |
 | 11 | Bonus Commands | 200 | ⬜ |
-| **Total** | | **2550** | **1150 earned** |
+| **Total** | | **2550** | **1450 earned** |
