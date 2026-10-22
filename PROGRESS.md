@@ -1,9 +1,9 @@
 # 🎓 Git Lesson Progress — Nicholas
 
 ## 📍 Current Position
-- **Stage:** 5 (next to start)
-- **Total XP:** 500 XP
-- **Level:** 4 — First Committer 💾
+- **Stage:** 7 (next to start)
+- **Total XP:** 850 XP
+- **Level:** 6 — Undo Master 🔄
 
 ## ✅ Completed Stages
 
@@ -32,18 +32,32 @@
 - Commit fingerprint: `a4b09a8`
 - XP earned: 200
 
-## ⏭️ Up Next — Stage 5: Reading History
-- Learn `git log` and `git log --oneline`
-- Understand what a commit hash is
-- XP available: 100
+### 🟡 Stage 5 — Reading History ✅
+- Used `git log` to see full commit history
+- Used `git log --oneline` for a clean summary view
+- Understands commit hashes (unique fingerprints for every save point)
+- Knows `HEAD -> master` means "you are here"
+- XP earned: 100
+
+### 🟠 Stage 6 — Undoing Things ✅
+- Used `git diff` to see what changed before committing
+- Used `git restore hello.txt` to undo a change completely
+- Knows Git almost never deletes things permanently
+- XP earned: 250
+
+## ⏭️ Up Next — Stage 7: Branches
+- Learn to create parallel universes for your code
+- XP available: 300
 
 ## 📖 Key Things Nicholas Knows
 - A **repo** = a folder Git watches
 - `git add` = putting files in the box 📦
 - `git commit` = sealing and labelling the box ✉️
 - `git status` = check what Git can see (run this constantly!)
-- Every commit gets a unique **fingerprint** (hash)
-
+- `git log` = open your save history 📖
+- `git log --oneline` = the clean, short version of save history
+- Every commit has a unique **fingerprint** (hash) like `a4b09a8`
+- **`HEAD`** = "you are here" marker
 ## 🎮 XP Tracker
 | Stage | Name | XP | Done? |
 |---|---|---|---|
@@ -51,11 +65,11 @@
 | 2 | Installing Git | 100 | ✅ |
 | 3 | First Repository | 150 | ✅ |
 | 4 | Staging & Committing | 200 | ✅ |
-| 5 | Reading History | 100 | ⏭️ next |
-| 6 | Undoing Things | 250 | ⬜ |
-| 7 | Branches | 300 | ⬜ |
+| 5 | Reading History | 100 | ✅ |
+| 6 | Undoing Things | 250 | ✅ |
+| 7 | Branches | 300 | ⏭️ next |
 | 8 | Merging | 300 | ⬜ |
 | 9 | GitHub | 400 | ⬜ |
 | 10 | Pull Requests | 500 | ⬜ |
 | 11 | Bonus Commands | 200 | ⬜ |
-| **Total** | | **2550** | **500 earned** |
+| **Total** | | **2550** | **850 earned** |
