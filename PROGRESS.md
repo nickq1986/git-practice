@@ -1,9 +1,9 @@
 # 🎓 Git Lesson Progress — Nicholas
 
 ## 📍 Current Position
-- **Stage:** 9 (next to start)
-- **Total XP:** 1450 XP
-- **Level:** 8 — Merge Champion 🏆
+- **Stage:** 10 (next to start)
+- **Total XP:** 1850 XP
+- **Level:** 9 — Cloud Saver ☁️
 
 ## ✅ Completed Stages
 
@@ -58,9 +58,14 @@
 - Understands "Fast-forward" = Git sliding master forward cleanly
 - XP earned: 300
 
-## ⏭️ Up Next — Stage 9: GitHub (Cloud Saves)
-- Push your repo to the internet
-- XP available: 400
+### 🔴 Stage 9 — GitHub (Cloud Saves) ✅
+- Connected local repo to GitHub: https://github.com/nickq1986/git-practice
+- Pushed `master` branch to remote `origin`
+- XP earned: 400
+
+## ⏭️ Up Next — Stage 10: Real World Workflow (Pull Requests)
+- Branch → Commit → Push → Open a Pull Request
+- XP available: 500
 
 ## 📖 Key Things Nicholas Knows
 - A **repo** = a folder Git watches
@@ -71,6 +76,9 @@
 - `git log --oneline` = the clean, short version of save history
 - Every commit has a unique **fingerprint** (hash) like `a4b09a8`
 - **`HEAD`** = "you are here" marker
+- **`origin`** = nickname for your remote cloud repo on GitHub
+- `git push` = uploading your local save to the cloud
+
 ## 🎮 XP Tracker
 | Stage | Name | XP | Done? |
 |---|---|---|---|
@@ -82,7 +90,7 @@
 | 6 | Undoing Things | 250 | ✅ |
 | 7 | Branches | 300 | ✅ |
 | 8 | Merging | 300 | ✅ |
-| 9 | GitHub | 400 | ⏭️ next |
-| 10 | Pull Requests | 500 | ⬜ |
+| 9 | GitHub | 400 | ✅ |
+| 10 | Pull Requests | 500 | ⏭️ next |
 | 11 | Bonus Commands | 200 | ⬜ |
-| **Total** | | **2550** | **1450 earned** |
+| **Total** | | **2550** | **1850 earned** |
