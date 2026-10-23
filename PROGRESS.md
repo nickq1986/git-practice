@@ -1,9 +1,9 @@
 # 🎓 Git Lesson Progress — Nicholas
 
 ## 📍 Current Position
-- **Stage:** 10 (next to start)
-- **Total XP:** 1850 XP
-- **Level:** 9 — Cloud Saver ☁️
+- **Stage:** 11 (Bonus Commands — Ready to start)
+- **Total XP:** 2350 XP
+- **Level:** 10 — Real Dev 🚀
 
 ## ✅ Completed Stages
 
@@ -61,11 +61,21 @@
 ### 🔴 Stage 9 — GitHub (Cloud Saves) ✅
 - Connected local repo to GitHub: https://github.com/nickq1986/git-practice
 - Pushed `master` branch to remote `origin`
+- Configured permanent Git credential helper store (no more token prompts!)
 - XP earned: 400
 
-## ⏭️ Up Next — Stage 10: Real World Workflow (Pull Requests)
-- Branch → Commit → Push → Open a Pull Request
-- XP available: 500
+### 🔴 Stage 10 — Real World Workflow (Pull Requests) ✅
+- Created `feature-update` branch
+- Made changes and committed with shortcut `-am`
+- Pushed branch to GitHub with `git push -u origin feature-update`
+- Opened and merged a real Pull Request (PR) on GitHub
+- Pulled updates back to local `master` cleanly
+- XP earned: 500
+
+## ⏭️ Up Next — Stage 11: Everyday Superpowers (Bonus Commands)
+- `.gitignore` — The bouncer file for secrets and junk
+- `git stash` — The temporary quick-save pocket
+- XP available: 200 (Will crown you Level 11: Git Hero ⭐)
 
 ## 📖 Key Things Nicholas Knows
 - A **repo** = a folder Git watches
@@ -78,6 +88,9 @@
 - **`HEAD`** = "you are here" marker
 - **`origin`** = nickname for your remote cloud repo on GitHub
 - `git push` = uploading your local save to the cloud
+- `git pull` = downloading latest cloud updates to your computer
+- **Pull Request (PR)** = asking the team to review and merge your branch into main
+- **Credential Store** = Git remembering your token forever
 
 ## 🎮 XP Tracker
 | Stage | Name | XP | Done? |
@@ -91,6 +104,6 @@
 | 7 | Branches | 300 | ✅ |
 | 8 | Merging | 300 | ✅ |
 | 9 | GitHub | 400 | ✅ |
-| 10 | Pull Requests | 500 | ⏭️ next |
-| 11 | Bonus Commands | 200 | ⬜ |
-| **Total** | | **2550** | **1850 earned** |
+| 10 | Pull Requests | 500 | ✅ |
+| 11 | Bonus Commands | 200 | ⏭️ next |
+| **Total** | | **2550** | **2350 earned** |
