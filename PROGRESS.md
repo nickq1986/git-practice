@@ -14,8 +14,7 @@
 
 ### 🟢 Stage 2 — Installing Git ✅
 - Git version 2.43.0 already installed
-- Configured name: Nicholas
-- Configured email: nicholasquinn86@hotmail.com
+- Configured name and email
 - XP earned: 100
 
 ### 🟡 Stage 3 — First Repository ✅

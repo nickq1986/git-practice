@@ -1,30 +1,32 @@
 # Git & GitHub Practice Repository
 
-A hands-on version control lab demonstrating core Git fundamentals, branching strategies, and modern GitHub collaboration workflows.
+A hands-on version control lab covering core Git fundamentals, branching, and the GitHub pull request workflow used in team development.
 
----
+## About This Repository
+A terminal-first practice environment, moving from basic file tracking to syncing with GitHub and merging through a pull request. This was solo practice, with no team collaboration yet.
 
-## 🎯 About This Repository
+## Skills Practised
+- **Core version control:** initialising a repository (`git init`), staging (`git add`), checking status (`git status`) and committing with descriptive messages (`git commit`)
+- **History and inspection:** reading history (`git log --oneline --graph`), comparing changes (`git diff`) and restoring files (`git restore`)
+- **Branching and merging:** creating and switching branches (`git branch`, `git switch`) and merging them into the main branch (`git merge`), including a fast-forward merge
+- **Remote sync with GitHub:** connecting a remote (`git remote add origin`), setting up a credential helper, pushing (`git push -u`) and pulling (`git pull`)
+- **Pull request workflow:** developing on a feature branch, then opening and merging a pull request on GitHub (PR #1)
 
-This repository serves as a practical, terminal-first environment for mastering Git from the ground up — moving from basic file tracking all the way to cloud-synced team workflows.
+## How I Learned This
+I followed a structured Git curriculum with an AI coding agent acting as tutor. The agent worked under written rules in [AGENTS.md](AGENTS.md): explain before showing commands, let me type the commands myself, and never run destructive commands without confirmation. Progress is tracked in [PROGRESS.md](PROGRESS.md).
 
-## 🛠️ Concepts & Skills Practiced
+## Next Steps
+`.gitignore`, `git stash`, and resolving merge conflicts, which I haven't practised yet.
 
-- **Core Version Control:** Initializing repositories (`git init`), staging area management (`git add`), inspecting working tree status (`git status`), and crafting clear, atomic commit checkpoints (`git commit`).
-- **History & Inspection:** Navigating commit logs (`git log --oneline --graph`), analyzing modifications (`git diff`), and safely restoring files (`git restore`).
-- **Branching & Merging:** Isolated feature development (`git branch`, `git switch`), branch lifecycle management, and clean integration into the primary branch (`git merge`).
-- **Remote Sync (GitHub):** Remote repository configuration (`git remote add origin`), credential helper setup, pushing upstream (`git push -u`), and pulling updates (`git pull`).
-- **Pull Request (PR) Workflow:** Feature branch development, opening and merging Pull Requests on GitHub, and resolving upstream sync.
-
-## 📂 Repository Contents
-
+## Repository Contents
 | File | Description |
-|---|---|
-| [`hello.txt`](hello.txt) | Practice file used for initial commits, diffs, and restore exercises |
-| [`git-memoir.txt`](git-memoir.txt) | Quick-reference developer cheat sheet for daily Git commands |
-| [`PROGRESS.md`](PROGRESS.md) | Stage-by-stage curriculum tracker and completed milestones |
-| [`AGENTS.md`](AGENTS.md) | Agent operational guidelines and learning persona documentation |
+|------|-------------|
+| `README.md` | This overview |
+| `hello.txt` | Practice file for commits, diffs and restore exercises |
+| `git-memoir.txt` | Quick-reference cheat sheet for daily Git commands |
+| `PROGRESS.md` | Curriculum tracker and completed milestones |
+| `AGENTS.md` | Rules for the AI tutor used in this repository |
 
 ---
 
-*Maintained by Nicholas ([@nickq1986](https://github.com/nickq1986))*
+Maintained by Nicholas ([@nickq1986](https://github.com/nickq1986))
