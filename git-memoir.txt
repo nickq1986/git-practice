@@ -1,0 +1,25 @@
+==================================================
+              GIT & GITHUB CHEAT SHEET
+==================================================
+
+[ CORE CONCEPTS ]
+• Repo             = A folder Git watches
+• Hash             = A unique commit fingerprint (e.g., a4b09a8)
+• HEAD             = "You are here" marker
+• Origin           = Nickname for your remote cloud repo on GitHub
+• Credential Store = Git remembering your token forever
+
+[ DAILY WORKFLOW ]
+• git status       = Check what Git can see (run this constantly!)
+• git add          = Putting files in the box 📦
+• git commit       = Sealing and labelling the box ✉️
+
+[ HISTORY & INSPECTION ]
+• git log          = Open your save history 📖
+• git log --oneline= The clean, short version of save history
+
+[ TEAM & CLOUD ]
+• git push         = Uploading your local save to the cloud
+• git pull         = Downloading latest cloud updates to your computer
+• Pull Request (PR)= Asking the team to review/merge your branch into main
+==================================================
